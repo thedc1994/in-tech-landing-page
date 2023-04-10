@@ -348,77 +348,103 @@ return [
     ],
 
     'section_8' => [
-        'label' => 'TIN TỨC, SỰ KIỆN',
-        'href' => 'https://dinotech.edu.vn/tin-tuc.html',
-        'events'    => [
+        'label'  => 'TIN TỨC, SỰ KIỆN',
+        'href'   => 'https://dinotech.edu.vn/tin-tuc.html',
+        'events' => [
             [
-                'href'  => 'https://dinotech.edu.vn/tin-tuc/cau-lenh-trang-phuc-trong-scratch_mt1641797216.html',
-                'image' => '/images/8a44fa0f-ebdf-4cbc-815a-231de2fc0393.png',
-                'title' => 'CÂU LỆNH TRANG PHỤC TRONG SCRATCH',
+                'href'        => 'https://dinotech.edu.vn/tin-tuc/cau-lenh-trang-phuc-trong-scratch_mt1641797216.html',
+                'image'       => '/images/8a44fa0f-ebdf-4cbc-815a-231de2fc0393.png',
+                'title'       => 'CÂU LỆNH TRANG PHỤC TRONG SCRATCH',
                 'description' => 'Tiếp tục với series “Tìm hiểu về Scratch”, hãy cùng tìm hiểu về câu lệnh trang phục trong Scratch cùng Dino Tech qua bài viết dưới đây.'
             ],
             [
-                'href'  => 'https://dinotech.edu.vn/tin-tuc/cung-cac-ban-hoc-sinh-truong-nguyen-binh-khiem-kham-pha-robotics-cung-dino-tech_mt1641797214.html',
-                'image' => '/images/bcc37e1e-99f2-4798-93f0-15891aeecfb5.png',
-                'title' => 'CÙNG CÁC BẠN HỌC SINH TRƯỜNG NGUYỄN BỈNH KHIÊM KHÁM PHÁ ROBOTICS CÙNG DINO TECH',
+                'href'        => 'https://dinotech.edu.vn/tin-tuc/cung-cac-ban-hoc-sinh-truong-nguyen-binh-khiem-kham-pha-robotics-cung-dino-tech_mt1641797214.html',
+                'image'       => '/images/bcc37e1e-99f2-4798-93f0-15891aeecfb5.png',
+                'title'       => 'CÙNG CÁC BẠN HỌC SINH TRƯỜNG NGUYỄN BỈNH KHIÊM KHÁM PHÁ ROBOTICS CÙNG DINO TECH',
                 'description' => 'Dino Tech đã có thời gian đồng hành cùng các bạn học sinh trường Nguyễn Bỉnh Khiêm trong hoạt động ngoại khóa của trường tại Vĩnh Phúc. Tại đây, các bạn nhỏ đã cùng nhau khám phá Robotics.'
             ],
             [
-                'href'  => 'https://dinotech.edu.vn/tin-tuc/nhom-lenh-pen-trong-scratch_mt1641797213.html',
-                'image' => '/images/da032e09-794a-4523-bb41-0ed539324329.png',
-                'title' => 'NHÓM LỆNH PEN TRONG SCRATCH',
+                'href'        => 'https://dinotech.edu.vn/tin-tuc/nhom-lenh-pen-trong-scratch_mt1641797213.html',
+                'image'       => '/images/da032e09-794a-4523-bb41-0ed539324329.png',
+                'title'       => 'NHÓM LỆNH PEN TRONG SCRATCH',
                 'description' => 'Ở các bài viết trong series “Lập trình với Scratch” trước đó, Dino Tech đã cùng các bạn tìm hiểu về các câu lệnh âm thanh, và các nhóm lệnh khác nhau... Trong bài viết hôm nay, hãy tiếp tục tìm hiểu về nhóm lệnh Pen trong Scratch cùng Dino Tech nhé!'
             ],
         ]
     ],
 
     'section_9' => [
-        'title' => 'ĐỐI TÁC',
+        'title'    => 'ĐỐI TÁC',
         'partners' => [
             [
-                'href' => 'https://dinotech.ebomb.edu.vn/',
-                'image'=> '/images/vn-express.png',
+                'href'  => 'https://dinotech.ebomb.edu.vn/',
+                'image' => '/images/vn-express.png',
                 'alt'   => 'VnExpress'
             ],
             [
-                'href' => 'https://dinotech.ebomb.edu.vn/',
-                'image'=> '/images/ielts.png',
+                'href'  => 'https://dinotech.ebomb.edu.vn/',
+                'image' => '/images/ielts.png',
                 'alt'   => 'IELTS Fighter'
             ],
             [
-                'href' => 'https://dinotech.ebomb.edu.vn/',
-                'image'=> '/images/mshoa.png',
+                'href'  => 'https://dinotech.ebomb.edu.vn/',
+                'image' => '/images/mshoa.png',
                 'alt'   => 'Ms Hoa Junior'
             ],
             [
-                'href' => 'https://dinotech.ebomb.edu.vn/',
-                'image'=> '/images/Roborobo.jpeg',
+                'href'  => 'https://dinotech.ebomb.edu.vn/',
+                'image' => '/images/Roborobo.jpeg',
                 'alt'   => 'Roborobo'
             ],
             [
-                'href' => 'https://dinotech.ebomb.edu.vn/',
-                'image'=> '/images/Classin.png',
+                'href'  => 'https://dinotech.ebomb.edu.vn/',
+                'image' => '/images/Classin.png',
                 'alt'   => 'Classin'
             ],
             [
-                'href' => 'https://dinotech.ebomb.edu.vn/',
-                'image'=> '/images/Viettel.png',
+                'href'  => 'https://dinotech.ebomb.edu.vn/',
+                'image' => '/images/Viettel.png',
                 'alt'   => 'Viettel'
             ],
             [
-                'href' => 'https://dinotech.ebomb.edu.vn/',
-                'image'=> '/images/IMAP.png',
+                'href'  => 'https://dinotech.ebomb.edu.vn/',
+                'image' => '/images/IMAP.png',
                 'alt'   => 'IMAP'
             ],
         ]
     ],
 
     'register' => [
-        'title_1' => 'TẶNG VOUCHER',
-        'title_2' => 'KHÓA HỌC',
-        'price' => '2.000.000',
-        'unit'  => 'vnđ',
+        'title_1'     => 'TẶNG VOUCHER',
+        'title_2'     => 'KHÓA HỌC',
+        'price'       => '2.000.000',
+        'unit'        => 'vnđ',
         'description' => 'KHI ĐĂNG KÝ CÁC KHÓA HỌC TRONG THÁNG 6/2022',
-        'image' => '/images/anh-quâtng.png'
+        'image'       => '/images/anh-quâtng.png'
+    ],
+
+    'footer' => [
+        'copyright'    => '© 2021. Trực thuộc công ty cổ phần giáo dục và đào tạo IMAP Việt Nam',
+        'logo'         => '/images/logo-white.png',
+        'logo_href'    => 'https://dinotech.edu.vn',
+        'facebook'     => '#',
+        'youtube'      => 'https://www.youtube.com/channel/UCE-WfKHFlC3-fKJvl0dLSVQ',
+        'tiktok'       => 'https://www.tiktok.com/@laptrinhnhi.dinotech',
+        'branch_title' => 'HỆ THỐNG CƠ SỞ DINOTECH',
+        'branches'     => [
+            [
+                'title'    => '26 Nguyễn Thị Định, Trung Hòa, Cầu Giấy, Hà Nội',
+                'address'  => '26 Phố Nguyễn Thị Định, Trung Hoà, Cầu Giấy, Hà Nội, Vietnam',
+                'phone'    => '02462947586',
+                'map_href' => 'https://maps.google.com/?q=21.012430200000000,105.803552100000000'
+            ],
+            [
+                'title'    => 'Văn phòng Hà Nội',
+                'address'  => '14 Phố Trần Kim Xuyến, Yên Hoà, Cầu Giấy, Hanoi, Vietnam',
+                'phone'    => '0965500306',
+                'map_href' => 'https://maps.google.com/?q=21.018245100000000,105.795860700000000'
+            ]
+        ]
+
     ]
+
 ];
