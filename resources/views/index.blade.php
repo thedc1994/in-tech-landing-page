@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html class="no-js" lang="vi">
 
@@ -6,32 +5,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-{{--    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">--}}
+    {{--    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">--}}
     <title>
         {{$home['title'] ?? "Dino Tech - Trường học Công nghệ Sáng tạo"}}
     </title>
-    <link rel="preconnect" href="https://st.ebomb.edu" />
-    <link rel="preconnect" href="https://www.googletagmanager.com" />
-    <link rel="preconnect" href="https://www.facebook.com" />
-    <link rel="dns-prefetch" href="https://st.ebomb.edu" />
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-    <link rel="dns-prefetch" href="https://www.facebook.com" />
-    <meta property="fb:app_id" content="987055298019777" />
-    <meta property="fb:admins" content="1020299739" />
-    <meta name="csrf-token" content="mgkXIwlCErvpBsSXoCCswRJqTJGAKksc1twLRs0B" />
-    <meta property="keyword" content="DINOTECH, Đào tạo công nghệ, Học lập trình, Trẻ học lập trình" />
-    <meta property="description" content="Dino Tech trường học công nghệ cho trẻ 5-18 tuổi hàng đầu Việt Nam; Chuyên đào tạo Lập trình (game/web/app), Robotics, Công nghệ 3D &amp; Thiết kế đồ họa..." />
-    <meta property="og:image" content="https://st.ebomb.edu.vn/src/erp-image/2022/06/13/b58f9464-66d7-403d-bfb4-2cffd2fb2ed7.png" />
-    <meta property="og:title" content="Dino Tech - Trường học Công nghệ Sáng tạo" />
-    <meta property="og:description" content="Dino Tech trường học công nghệ cho trẻ 5-18 tuổi hàng đầu Việt Nam; Chuyên đào tạo Lập trình (game/web/app), Robotics, Công nghệ 3D &amp; Thiết kế đồ họa..." />
-    <meta property="og:url" content="http://dinotech.edu.vn" />
+    <link rel="preconnect" href="https://st.ebomb.edu"/>
+    <link rel="preconnect" href="https://www.googletagmanager.com"/>
+    <link rel="preconnect" href="https://www.facebook.com"/>
+    <link rel="dns-prefetch" href="https://st.ebomb.edu"/>
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com"/>
+    <link rel="dns-prefetch" href="https://www.facebook.com"/>
+    <meta property="fb:app_id" content="987055298019777"/>
+    <meta property="fb:admins" content="1020299739"/>
+    <meta name="csrf-token" content="mgkXIwlCErvpBsSXoCCswRJqTJGAKksc1twLRs0B"/>
+    <meta property="keyword" content="DINOTECH, Đào tạo công nghệ, Học lập trình, Trẻ học lập trình"/>
+    <meta property="description"
+          content="Dino Tech trường học công nghệ cho trẻ 5-18 tuổi hàng đầu Việt Nam; Chuyên đào tạo Lập trình (game/web/app), Robotics, Công nghệ 3D &amp; Thiết kế đồ họa..."/>
+    <meta property="og:image"
+          content="https://st.ebomb.edu.vn/src/erp-image/2022/06/13/b58f9464-66d7-403d-bfb4-2cffd2fb2ed7.png"/>
+    <meta property="og:title" content="Dino Tech - Trường học Công nghệ Sáng tạo"/>
+    <meta property="og:description"
+          content="Dino Tech trường học công nghệ cho trẻ 5-18 tuổi hàng đầu Việt Nam; Chuyên đào tạo Lập trình (game/web/app), Robotics, Công nghệ 3D &amp; Thiết kế đồ họa..."/>
+    <meta property="og:url" content="http://dinotech.edu.vn"/>
     <link rel="shortcut icon" href="{{URL::asset('/images/favicon.ico')}}" type="image/x-icon">
     <link rel="apple-touch-icon" href="{{URL::asset('/images/apple-touch-icon.png')}}">
     <link rel="stylesheet" href="{{URL::asset('/css/animate.css')}}">
     <link rel="stylesheet" href="{{URL::asset('/css/vendor.css')}}">
     <link rel="stylesheet" href="{{URL::asset('/css/main.css')}}">
-    @include('home.css')
-    <!-- Google Tag Manager -->
+@include('home.css')
+<!-- Google Tag Manager -->
     <script>
         // (function(w, d, s, l, i) {
         //     w[l] = w[l] || [];
@@ -68,6 +70,7 @@
             "telephone": ""
           }
         }
+
     </script>
     <style>
         .post-content img {
@@ -99,7 +102,7 @@
             border: 0;
         }
     </style>
-    <script defer src="{{URL::asset('js/vendor/jquery-3.6.0.min.js')}}"></script>
+
 </head>
 
 <body>
@@ -108,8 +111,8 @@
                   style="display:none;visibility:hidden"></iframe></noscript> -->
 <!-- End Google Tag Manager (noscript) -->
 <div class="page page-home">
-    @include('home.menu')
-    <!-- banner -->
+@include('home.menu')
+<!-- banner -->
     <div class="page-main">
         @include('home.section-1-banner')
         @include('home.section-2')
@@ -145,12 +148,49 @@
     </script>
     @include('home.footer')
 </div>
+<script src="{{URL::asset('js/vendor/jquery-3.6.0.min.js')}}"></script>
 <script data-cfasync="false" src="{{URL::asset('js/email-decode.min.js')}}"></script>
 <script src="{{URL::asset('/js/vendors.js')}}"></script>
 <script src="{{URL::asset('/js/main.js')}}"></script>
 <script defer src="https://www.google.com/recaptcha/api.js?render=6Lc7w5sgAAAAAEsmRH_Ogj62nolfSzOH9Q9IzNir"></script>
 <script>
-    window.addEventListener("load", function() {
+
+    function registerForm() {
+        var url = 'https://script.google.com/macros/s/AKfycbwMTtsqDVcGHcwCnLeyTVCjLhYP6HAG53TKidmPk3IHgq5MYYS7g8stFJtDLA9xrTYj/exec';
+
+        var data = {
+            parent_name: $('#form-name').val(),
+            email: $('#form-email').val(),
+            phone: $('#form-phonenumber').val(),
+            address: $('#form-address').val(),
+            student_name: $('#form-student-name').val(),
+            student_age: $('#form-student-age').val(),
+            subject_interest: $('#form-subject').val(),
+            branch: $('#form-branch').val(),
+        };
+
+        if(data.parent_name == '' && data.email == '' && data.phone == '' && data.student_name == ''){
+            return false;
+        }
+
+        $.ajax({
+            url: url,
+            method: "GET",
+            dataType: "json",
+            data: data,
+            success: function (data) {
+                alert('Cảm ơn bạn đã đăng ký tư vấn và nhận email từ Dinotech. Chúng tôi sẽ sớm gửi email và liên hệ với bạn sớm nhất trong 24h tới nhé. Chúc bạn một ngày vui vẻ.');
+                location.reload();
+            },
+            error: function (e) {
+                alert('Lỗi hệ thống, vui lòng nhập lại');
+                
+            }
+        });
+    }
+
+
+    window.addEventListener("load", function () {
         // $('img').each(function() {
         //     let this_url = $(this).attr('src');
         //     var http = new XMLHttpRequest();
@@ -163,23 +203,23 @@
         if ($("#post-content-detail table")[0]) {
             $("#post-content-detail table").addClass('table').wrap('<div class="table-responsive"></div>');
         }
-        $(".iframe-data").each(function() {
+        $(".iframe-data").each(function () {
             var dataUrl = $(this).attr('data-url');
             $(this).append('<iframe loading="lazy" src="' + dataUrl +
                 '" allowfullscreen="" frameborder="0" width="100%" height="100%"></iframe>');
         });
-        $(document).ready(function() {
+        $(document).ready(function () {
             if ($(".recaptchaToken")[0]) {
-                grecaptcha.ready(function() {
+                grecaptcha.ready(function () {
                     grecaptcha.execute('6Lc7w5sgAAAAAEsmRH_Ogj62nolfSzOH9Q9IzNir', {
                         action: 'contact'
-                    }).then(function(token) {
+                    }).then(function (token) {
                         $(".recaptchaToken").val(token);
                     });
                 });
             }
 
-            $(".form-contact").submit(function(event) {
+            $(".form-contact").submit(function (event) {
                 var dataSerialize = $(this).serializeArray();
                 var url = $(this).attr('action');
                 var notifyForm = $(this).attr('notify-form');
@@ -188,7 +228,7 @@
                     url: url,
                     data: dataSerialize, // serializes the form's elements.
                     dataType: 'json',
-                    success: function(data) {
+                    success: function (data) {
                         if (data.status == 'success') {
                             if (data.popup_result != null) {
                                 $('#' + data.popup_result).modal('show');
@@ -211,7 +251,7 @@
                             location.reload();
                         }
                     },
-                    error: function(e) {
+                    error: function (e) {
                         alert('Lỗi hệ thống, vui lòng nhập lại');
                         location.reload();
                     }

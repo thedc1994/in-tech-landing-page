@@ -419,7 +419,26 @@ return [
         'price'       => '2.000.000',
         'unit'        => 'vnđ',
         'description' => 'KHI ĐĂNG KÝ CÁC KHÓA HỌC TRONG THÁNG 6/2022',
-        'image'       => '/images/anh-quâtng.png'
+        'image'       => '/images/anh-quâtng.png',
+        'subjects'    => [
+            'Dino Game Scratch basic',
+            'Lắp ráp Robot với UARO Basic',
+            'Dino Game Scratch Advance'
+        ],
+        'branches'     => [
+            [
+                'title'    => '26 Nguyễn Thị Định, Trung Hòa, Cầu Giấy, Hà Nội',
+                'address'  => '26 Phố Nguyễn Thị Định, Trung Hoà, Cầu Giấy, Hà Nội, Vietnam',
+                'phone'    => '02462947586',
+                'map_href' => 'https://maps.google.com/?q=21.012430200000000,105.803552100000000'
+            ],
+            [
+                'title'    => 'Văn phòng Hà Nội',
+                'address'  => '14 Phố Trần Kim Xuyến, Yên Hoà, Cầu Giấy, Hanoi, Vietnam',
+                'phone'    => '0965500306',
+                'map_href' => 'https://maps.google.com/?q=21.018245100000000,105.795860700000000'
+            ]
+        ]
     ],
 
     'footer' => [
