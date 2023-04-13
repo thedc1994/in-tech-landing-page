@@ -152,11 +152,13 @@
 <script data-cfasync="false" src="{{URL::asset('js/email-decode.min.js')}}"></script>
 <script src="{{URL::asset('/js/vendors.js')}}"></script>
 <script src="{{URL::asset('/js/main.js')}}"></script>
-<script defer src="https://www.google.com/recaptcha/api.js?render=6Lc7w5sgAAAAAEsmRH_Ogj62nolfSzOH9Q9IzNir"></script>
+<!-- <script defer src="https://www.google.com/recaptcha/api.js?render=6Lc7w5sgAAAAAEsmRH_Ogj62nolfSzOH9Q9IzNir"></script> -->
 <script>
 
     function registerForm() {
-        var url = 'https://script.google.com/macros/s/AKfycbwMTtsqDVcGHcwCnLeyTVCjLhYP6HAG53TKidmPk3IHgq5MYYS7g8stFJtDLA9xrTYj/exec';
+        // var url = 'https://script.google.com/macros/s/AKfycbwMTtsqDVcGHcwCnLeyTVCjLhYP6HAG53TKidmPk3IHgq5MYYS7g8stFJtDLA9xrTYj/exec';
+        // var url = 'https://script.google.com/macros/s/AKfycbxIkQAdNcdkdhWGSQv-f3KLFvsIw5-DoGdJklMuZoqYTnEAkA_YDDq0R85zkCWmzaL_-A/exec';
+        var url = 'https://script.google.com/macros/s/AKfycbwOksqN6xjjfCIlm6nThU9YLWCdvJP9SRPe4nK_A20xafHOBRvuHP0uG-2SHbdHAylM/exec';
 
         var data = {
             parent_name: $('#form-name').val(),
@@ -169,7 +171,7 @@
             branch: $('#form-branch').val(),
         };
 
-        if(data.parent_name == '' && data.email == '' && data.phone == '' && data.student_name == ''){
+        if(data.parent_name == '' && (data.email == '' || data.phone == '') && data.student_name == ''){
             return false;
         }
 
@@ -209,15 +211,15 @@
                 '" allowfullscreen="" frameborder="0" width="100%" height="100%"></iframe>');
         });
         $(document).ready(function () {
-            if ($(".recaptchaToken")[0]) {
-                grecaptcha.ready(function () {
-                    grecaptcha.execute('6Lc7w5sgAAAAAEsmRH_Ogj62nolfSzOH9Q9IzNir', {
-                        action: 'contact'
-                    }).then(function (token) {
-                        $(".recaptchaToken").val(token);
-                    });
-                });
-            }
+            // if ($(".recaptchaToken")[0]) {
+            //     grecaptcha.ready(function () {
+            //         grecaptcha.execute('6Lc7w5sgAAAAAEsmRH_Ogj62nolfSzOH9Q9IzNir', {
+            //             action: 'contact'
+            //         }).then(function (token) {
+            //             $(".recaptchaToken").val(token);
+            //         });
+            //     });
+            // }
 
             $(".form-contact").submit(function (event) {
                 var dataSerialize = $(this).serializeArray();
