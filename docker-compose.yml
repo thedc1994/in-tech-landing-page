@@ -1,0 +1,14 @@
+version: "2.4"
+
+services:
+  workspace:
+    image: in_tech_landing_page
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: in_tech_landing_page
+    working_dir: /var/www/html
+    ports:
+      - "8800:80"
+    volumes:
+        - .:/var/www/html

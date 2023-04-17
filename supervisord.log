@@ -1,0 +1,6 @@
+2023-04-17 16:14:35,842 INFO Set uid to user 0 succeeded
+2023-04-17 16:14:35,847 INFO supervisord started with pid 1
+2023-04-17 16:14:36,850 INFO spawned: 'nginx' with pid 9
+2023-04-17 16:14:36,852 INFO spawned: 'php-fpm' with pid 10
+2023-04-17 16:14:37,886 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-04-17 16:14:37,886 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
