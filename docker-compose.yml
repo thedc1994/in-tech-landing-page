@@ -10,5 +10,3 @@ services:
     working_dir: /var/www/html
     ports:
       - "8800:80"
-    volumes:
-        - .:/var/www/html
