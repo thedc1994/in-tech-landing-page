@@ -31,7 +31,7 @@ return [
             ],
             [
                 'label' => "Sản phẩm học viên",
-                'href'  => '/'
+                'href'  => '/san-pham-hoc-vien'
             ],
             [
                 'label' => "Khóa học",
@@ -318,31 +318,69 @@ return [
             'title'       => '[Cuộc thi Lập trình Lì xì Tết] - Giải Ba - Thí sinh Minh Vương',
             'description' => 'Minh Vương xuất sắc đạt giải ba trong cuộc thi Lập trình Lì Xì Tết với Dino Tech. Cả nhà hãy cùng xem phần thuyết trình về sản phẩm của Minh Vương dưới đây nhé!'
         ],
-        'products'     => [
+        'popular_products'     => [
             [
                 'href'  => 'https://dinotech.edu.vn/tin-tuc/cuoc-thi-lap-trinh-li-xi-tet---giai-ba---thi-sinh-minh-vuong_mt1641797219.html',
                 'image' => '/images/b8422fb3-8399-47da-ae99-0d9ab97a23b5.jpg',
                 'title' => '[Cuộc thi Lập trình Lì xì Tết] - Giải Ba - Thí sinh Minh Vương',
+                'description' => 'Minh Vương xuất sắc đạt giải ba trong cuộc thi Lập trình Lì Xì Tết với Dino Tech. Cả nhà hãy cùng xem phần thuyết trình về sản phẩm của Minh Vương dưới đây nhé!'
             ],
             [
                 'href'  => 'https://dinotech.edu.vn/tin-tuc/cuoc-thi-lap-trinh-li-xi-tet---giai-nhi---thi-sinh-duc-linh_mt1641797218.html',
                 'image' => '/images/28104425-a112-4322-b329-88f0f9808131.jpg',
                 'title' => '[Cuộc thi Lập trình Lì xì Tết] - Giải Nhì - Thí sinh Đức Linh',
+                'description' => 'Cùng đón xem bài dự thi của Đức Linh - Thí sinh đoạt giải Nhì trong cuộc thi Lập trình Lì Xì Tết với Dino Tech nhé.'
             ],
             [
                 'href'  => 'https://dinotech.edu.vn/tin-tuc/cuoc-thi-lap-trinh-li-xi-tet---giai-nhat---thi-sinh-nhu-an_mt1641797217.html',
                 'image' => '/images/d6b72b70-bb43-4c0f-b170-f1995f175459.jpg',
                 'title' => '[Cuộc thi Lập trình Lì xì Tết] - Giải Nhất - Thí sinh Như An',
+                'description' => 'Hãy cùng theo dõi bài thi của Như An, thí sinh đã đạt giải Nhất trong cuộc thi Lập trình lì xì Tết thông qua các lượt bình chọn và chấm điểm từ BTC nhé.'
             ],
             [
                 'href'  => 'https://dinotech.edu.vn/tin-tuc/du-an-cuoi-khoa---viet-phuong-le-uyen---hoc-vien-lop-python-hp-1_mt1641797191.html',
                 'image' => '/images/81219cbb-67cd-4795-876b-f8efe9c840a3.jpg',
                 'title' => '[DỰ ÁN CUỐI KHÓA] - VIỆT PHƯƠNG, LÊ UYÊN - HỌC VIÊN LỚP PYTHON HP 1',
+                'description' => 'Lựa chọn Robot tính tiền làm dự án cuối khóa, Việt Phương và Lê Uyên, học viên lớp Lập trình Python HP 1, đã hoàn thành rất tốt bài thuyết trình của mình và chính thức tốt nghiệp&nbsp;học phần đầu tiên của lớp học Python.'
             ],
             [
                 'href'  => 'https://dinotech.edu.vn/tin-tuc/du-an-cuoi-khoa---trong-khoi---hoc-vien-lop-minecraft-level-1_mt1641797187.html',
                 'image' => '/images/72e75a9a-703e-4a57-9f84-b4f5ae2352cf.jpg',
                 'title' => '[DỰ ÁN CUỐI KHÓA] - TRỌNG KHÔI - HỌC VIÊN LỚP MINECRAFT LEVEL 1',
+                'description' => 'Tự tin thuyết trình dự án cuối khóa - Khôi tốt nghiệp xuất sắc khóa học Lập trình Minecraft tại&nbsp;Dino Tech'
+            ]
+
+        ],
+        'products'     => [
+            [
+                'href'  => 'https://dinotech.edu.vn/tin-tuc/cuoc-thi-lap-trinh-li-xi-tet---giai-ba---thi-sinh-minh-vuong_mt1641797219.html',
+                'image' => '/images/b8422fb3-8399-47da-ae99-0d9ab97a23b5.jpg',
+                'title' => '[Cuộc thi Lập trình Lì xì Tết] - Giải Ba - Thí sinh Minh Vương',
+                'description' => 'Minh Vương xuất sắc đạt giải ba trong cuộc thi Lập trình Lì Xì Tết với Dino Tech. Cả nhà hãy cùng xem phần thuyết trình về sản phẩm của Minh Vương dưới đây nhé!'
+            ],
+            [
+                'href'  => 'https://dinotech.edu.vn/tin-tuc/cuoc-thi-lap-trinh-li-xi-tet---giai-nhi---thi-sinh-duc-linh_mt1641797218.html',
+                'image' => '/images/28104425-a112-4322-b329-88f0f9808131.jpg',
+                'title' => '[Cuộc thi Lập trình Lì xì Tết] - Giải Nhì - Thí sinh Đức Linh',
+                'description' => 'Cùng đón xem bài dự thi của Đức Linh - Thí sinh đoạt giải Nhì trong cuộc thi Lập trình Lì Xì Tết với Dino Tech nhé.'
+            ],
+            [
+                'href'  => 'https://dinotech.edu.vn/tin-tuc/cuoc-thi-lap-trinh-li-xi-tet---giai-nhat---thi-sinh-nhu-an_mt1641797217.html',
+                'image' => '/images/d6b72b70-bb43-4c0f-b170-f1995f175459.jpg',
+                'title' => '[Cuộc thi Lập trình Lì xì Tết] - Giải Nhất - Thí sinh Như An',
+                'description' => 'Hãy cùng theo dõi bài thi của Như An, thí sinh đã đạt giải Nhất trong cuộc thi Lập trình lì xì Tết thông qua các lượt bình chọn và chấm điểm từ BTC nhé.'
+            ],
+            [
+                'href'  => 'https://dinotech.edu.vn/tin-tuc/du-an-cuoi-khoa---viet-phuong-le-uyen---hoc-vien-lop-python-hp-1_mt1641797191.html',
+                'image' => '/images/81219cbb-67cd-4795-876b-f8efe9c840a3.jpg',
+                'title' => '[DỰ ÁN CUỐI KHÓA] - VIỆT PHƯƠNG, LÊ UYÊN - HỌC VIÊN LỚP PYTHON HP 1',
+                'description' => 'Lựa chọn Robot tính tiền làm dự án cuối khóa, Việt Phương và Lê Uyên, học viên lớp Lập trình Python HP 1, đã hoàn thành rất tốt bài thuyết trình của mình và chính thức tốt nghiệp&nbsp;học phần đầu tiên của lớp học Python.'
+            ],
+            [
+                'href'  => 'https://dinotech.edu.vn/tin-tuc/du-an-cuoi-khoa---trong-khoi---hoc-vien-lop-minecraft-level-1_mt1641797187.html',
+                'image' => '/images/72e75a9a-703e-4a57-9f84-b4f5ae2352cf.jpg',
+                'title' => '[DỰ ÁN CUỐI KHÓA] - TRỌNG KHÔI - HỌC VIÊN LỚP MINECRAFT LEVEL 1',
+                'description' => 'Tự tin thuyết trình dự án cuối khóa - Khôi tốt nghiệp xuất sắc khóa học Lập trình Minecraft tại&nbsp;Dino Tech'
             ]
         ]
     ],
