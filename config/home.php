@@ -16,43 +16,43 @@ return [
                 'href'  => '/'
             ],
             [
-                'label'    => "Về In Tech",
-                'href'     => '#',
-                'children' => [
-                    [
-                        'label' => "Về In Tech",
-                        'href'  => '/gioi-thieu.html',
-                    ],
-                    [
-                        'label' => "Triết lý đào tạo",
-                        'href'  => '/triet-ly-dao-tao.html',
-                    ]
-                ]
-            ],
-            [
                 'label' => "Sản phẩm học viên",
                 'href'  => '/san-pham-hoc-vien'
             ],
             [
-                'label' => "Khóa học",
-                'href'  => '/'
+                'label'    => "Về In Tech",
+                'href'     => '#',
+                'children' => [
+                    [
+                        'label' => "Tầm nhìn",
+                        'href'  => '/tam-nhin',
+                    ],
+                    [
+                        'label' => "Sứ mệnh",
+                        'href'  => '/su-menh',
+                    ],
+                    [
+                        'label' => "Lợi ích",
+                        'href'  => '/loi-ich',
+                    ],
+                    [
+                        'label' => "Hệ thống",
+                        'href'  => '/he-thong',
+                    ]
+                ]
             ],
             [
-                'label' => "Lịch khai giảng",
-                'href'  => '/'
+                'label' => "Khóa học",
+                'href'  => '/khoa-hoc'
             ],
             [
                 'label' => "Tài liệu",
-                'href'  => '/'
+                'href'  => '/tai-lieu'
             ],
             [
                 'label' => "Tin tức",
-                'href'  => '/'
+                'href'  => '/tin-tuc'
             ],
-            [
-                'label' => "Chuyên gia",
-                'href'  => '/'
-            ]
         ]
     ],
     'section_1' => [
@@ -61,25 +61,25 @@ return [
             [
                 'image' => '/images/card-1.png',
                 'href'  => 'https://dinotech.edu.vn/kindy_cd13.html',
-                'name'  => 'Kindy',
+                'name'  => 'STEAM CODING',
                 'text'  => '5 tuổi - 7 tuổi',
             ],
             [
                 'image' => '/images/card-2.png',
                 'href'  => "https://dinotech.edu.vn/kids_cd7.html",
-                'name'  => 'Kids',
+                'name'  => 'STEAM DESIGN',
                 'text'  => '7 tuổi - 11 tuổi',
             ],
             [
                 'image' => '/images/card-3.png',
                 'href'  => "https://dinotech.edu.vn/teen_cd8.html",
-                'name'  => "Teen",
+                'name'  => "STEAM ROBOT",
                 'text'  => '12 tuổi - 15 tuổi',
             ],
             [
                 'image' => '/images/card-4.png',
                 'href'  => "https://dinotech.edu.vn/youngs_cd9.html",
-                'name'  => "Youngs",
+                'name'  => "STEAM KID SKILL",
                 'text'  => "16 tuổi - 18 + tuổi",
             ]
 
