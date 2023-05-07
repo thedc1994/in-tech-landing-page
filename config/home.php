@@ -38,12 +38,34 @@ return [
                     [
                         'label' => "Hệ thống",
                         'href'  => '/he-thong',
+                    ],
+                    [
+                        'label' => "Khóa học",
+                        'href'  => '/khoa-hoc',
                     ]
                 ]
             ],
             [
                 'label' => "Khóa học",
-                'href'  => '/khoa-hoc'
+                'href'  => '/#',
+                'children' => [
+                    [
+                        'label' => "Steam Coding",
+                        'href'  => '/steam-coding',
+                    ],
+                    [
+                        'label' => "Steam Design",
+                        'href'  => '/steam-design',
+                    ],
+                    [
+                        'label' => "Steam Robot",
+                        'href'  => '/steam-robot',
+                    ],
+                    [
+                        'label' => "Steam Kid Skill",
+                        'href'  => '/steam-kid-skill',
+                    ]
+                ]
             ],
             [
                 'label' => "Tài liệu",
@@ -459,9 +481,10 @@ return [
         'description' => 'KHI ĐĂNG KÝ CÁC KHÓA HỌC TRONG THÁNG 6/2022',
         'image'       => '/images/anh-quâtng.png',
         'subjects'    => [
-            'Dino Game Scratch basic',
-            'Lắp ráp Robot với UARO Basic',
-            'Dino Game Scratch Advance'
+            'Steam Coding',
+            'Steam Design',
+            'Steam Robot',
+            'Steam Kid Skill'
         ],
         'branches'     => [
             [
