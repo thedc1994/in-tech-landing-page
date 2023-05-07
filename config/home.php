@@ -82,25 +82,25 @@ return [
         'cards'  => [
             [
                 'image' => '/images/card-1.png',
-                'href'  => 'https://dinotech.edu.vn/kindy_cd13.html',
+                'href'  => '/steam-coding',
                 'name'  => 'STEAM CODING',
                 'text'  => '5 tuổi - 7 tuổi',
             ],
             [
                 'image' => '/images/card-2.png',
-                'href'  => "https://dinotech.edu.vn/kids_cd7.html",
+                'href'  => "/steam-design",
                 'name'  => 'STEAM DESIGN',
                 'text'  => '7 tuổi - 11 tuổi',
             ],
             [
                 'image' => '/images/card-3.png',
-                'href'  => "https://dinotech.edu.vn/teen_cd8.html",
+                'href'  => "steam-robot",
                 'name'  => "STEAM ROBOT",
                 'text'  => '12 tuổi - 15 tuổi',
             ],
             [
                 'image' => '/images/card-4.png',
-                'href'  => "https://dinotech.edu.vn/youngs_cd9.html",
+                'href'  => "steam-kid-skill",
                 'name'  => "STEAM KID SKILL",
                 'text'  => "16 tuổi - 18 + tuổi",
             ]
@@ -512,16 +512,26 @@ return [
         'branch_title' => 'HỆ THỐNG CƠ SỞ DINOTECH',
         'branches'     => [
             [
+                'id' => 1,
                 'title'    => '26 Nguyễn Thị Định, Trung Hòa, Cầu Giấy, Hà Nội',
                 'address'  => '26 Phố Nguyễn Thị Định, Trung Hoà, Cầu Giấy, Hà Nội, Vietnam',
                 'phone'    => '02462947586',
-                'map_href' => 'https://maps.google.com/?q=21.012430200000000,105.803552100000000'
+                'map_href' => 'https://maps.google.com/?q=21.012430200000000,105.803552100000000',
+                'calendar_content' => "Các bạn nhỏ ơi, nghỉ hè rồi! Nghỉ hè này chúng mình đã có dự định khám phá những
+                điều thú vị gì chưa?<br> Nhân dịp khai trương cơ sở đầu tiên tại Hà Nội, DinoTech có rất nhiều phần quà
+                hấp dẫn cũng như những buổi trải nghiệm công nghệ đầy hấp dẫn đang chờ chúng mình đến khám phá đó. Hãy
+                nhanh tay check lịch và đăng ký nào !"
             ],
             [
+                'id' => 2,
                 'title'    => 'Văn phòng Hà Nội',
                 'address'  => '14 Phố Trần Kim Xuyến, Yên Hoà, Cầu Giấy, Hanoi, Vietnam',
                 'phone'    => '0965500306',
-                'map_href' => 'https://maps.google.com/?q=21.018245100000000,105.795860700000000'
+                'map_href' => 'https://maps.google.com/?q=21.018245100000000,105.795860700000000',
+                'calendar_content' => "Các bạn nhỏ ơi, nghỉ hè rồi! Nghỉ hè này chúng mình đã có dự định khám phá những
+                điều thú vị gì chưa?<br> Nhân dịp khai trương cơ sở đầu tiên tại Hà Nội, DinoTech có rất nhiều phần quà
+                hấp dẫn cũng như những buổi trải nghiệm công nghệ đầy hấp dẫn đang chờ chúng mình đến khám phá đó. Hãy
+                nhanh tay check lịch và đăng ký nào !"
             ]
         ]
 

@@ -14,7 +14,8 @@
 
 
 @section('content')
-    
+    @include('home.section-1-banner')
+    @include('home.register')
 @stop
 
 @section('footer')
